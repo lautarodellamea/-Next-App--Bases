@@ -17,10 +17,13 @@ export default function RootLayout({ children,
     <html lang="en">
       <body className={inter.className}>
         <div className="flex flex-col">
-          <span>RootLayout</span>
+          <span>Esto esta escrito en el RootLayout</span>
           {children}
         </div>
       </body>
     </html>
   );
 }
+
+
+/* Los layouts son higher order components ya que reciben un children  */
