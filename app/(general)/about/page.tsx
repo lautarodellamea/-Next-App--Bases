@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-
+// el tipado :Metadata nos sirve para ver que mas podemos poner dentro
 export const metadata: Metadata = {
   title: 'SEO Title' + (new Date().toString()),
   description: 'SEO Title',
